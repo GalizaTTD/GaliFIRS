@@ -12,7 +12,7 @@ industry = IndustryPrimaryPort(
     prospect_chance="0.75",
     name="string(STR_IND_PORT)",
     nearby_station_name="string(STR_STATION_INDUSTRY_HARBOUR_2)",
-    fund_cost_multiplier="152",
+    fund_cost_multiplier="255",
     override_default_construction_states=True,
 )
 
