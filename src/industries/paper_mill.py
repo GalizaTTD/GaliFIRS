@@ -24,7 +24,8 @@ industry = IndustrySecondary(
 
 industry.enable_in_economy(
     "GALIZA",
-    accept_cargos_with_input_ratios=[("WOOD", 4), ("RCYC", 6)],
+    accept_cargos_with_input_ratios=[("WOOD", 4), ("RCYC", 6), ("RFPR", 2)],
+	prod_cargo_types_with_output_ratios=[("GOOD", 8)],
 )
 
 industry.enable_in_economy(

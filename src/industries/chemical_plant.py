@@ -23,6 +23,12 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+    accept_cargos_with_input_ratios=[("PETR", 4), ("BEER", 4)],
+    prod_cargo_types_with_output_ratios=[("RFPR", 8)],
+)
+
+industry.enable_in_economy(
     "BASIC_TROPIC",
     accept_cargos_with_input_ratios=[
         ("OIL_", 4),

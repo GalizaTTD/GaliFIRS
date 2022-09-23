@@ -24,7 +24,7 @@ industry = IndustryTertiary(
 
 industry.enable_in_economy(
     "GALIZA",
-    accept_cargos_with_input_ratios=["FOOD","BEER"],
+    accept_cargo_types=["FOOD","BEER"],
 )
 
 industry.add_tile(

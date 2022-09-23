@@ -33,19 +33,22 @@ economy = Economy(
 		"scrap_metal",
 		"glass",
 		"sand",
-		"vehicle_bodies", #25
+        "electrical_parts", #25
+		"vehicle_bodies",
 		"vehicle_engines",
 		"vehicle_parts",
-		"vehicles",
+		"tyres",
+		"vehicles", #30
 		"rubber",
-		"steel", #30
+		"steel",
 		"iron_ore",
 		"copper_ore",
-		"copper",
+		"copper", #35
 		"building_materials",
-		"paper",
 		"pyrite_ore",
 		"zinc",
+		"stone",
+		"clay", #40
     ],
     # as of April 2021 this cargoflow graph is really as optimised as can be
     # the main driver is preventing ugly appearance of the edges that converge on food, most of the layout is arranged around preventing that

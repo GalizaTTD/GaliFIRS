@@ -19,6 +19,11 @@ industry = IndustryTertiary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+    accept_cargo_types=["GOOD","PASS"],
+    prod_cargo_types_with_multipliers=[("PASS", 17)],
+)
+industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
     accept_cargo_types=["GOOD", "BDMT"],
 )

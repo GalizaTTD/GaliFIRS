@@ -16,6 +16,10 @@ industry = IndustryPrimaryExtractive(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+	prod_cargo_types_with_multipliers=[("CLAY", 16)],
+)
+industry.enable_in_economy(
     "BASIC_TEMPERATE",
     locate_in_specific_biomes=[
         "more_south_west",

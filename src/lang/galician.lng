@@ -70,7 +70,7 @@ STR_CARGO_NAME_COKE                                                             
 STR_CARGO_NAME_COPPER                                                           :Cobre
 STR_CARGO_NAME_COPPER_CONCENTRATE                                               :Concentrado de cobre
 STR_CARGO_NAME_EDIBLE_OIL                                                       :Aceite alimentario
-STR_CARGO_NAME_ELECTRICAL_PARTS                                              	:Pezas eléctricas
+STR_CARGO_NAME_ELECTRICAL_PARTS                                              	:Electrónica
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :Abastecementos de enxeñería
 STR_CARGO_NAME_ETHYLENE                                                         :Etileno
 STR_CARGO_NAME_EXPLOSIVES                                                       :Explosivos
@@ -112,7 +112,7 @@ STR_CARGO_NAME_PIPE                                                             
 STR_CARGO_NAME_PLASTICS                                                         :Plásticos
 STR_CARGO_NAME_POTASH                                                           :Potasa
 STR_CARGO_NAME_PROPYLENE                                                        :Propileno
-STR_CARGO_NAME_PYRITE_ORE                                                       :Mineral de pirita
+STR_CARGO_NAME_PYRITE_ORE                                                       :Esfalerita
 STR_CARGO_NAME_QUICKLIME                                                        :Cal
 STR_CARGO_NAME_RAW_LATEX                                                        :Látex en crú
 STR_CARGO_NAME_REBAR                                                            :Aceiro corrugado
@@ -140,7 +140,7 @@ STR_CARGO_NAME_VEHICLE_BODIES                                                   
 STR_CARGO_NAME_VEHICLE_ENGINES                                                  :Motores
 STR_CARGO_NAME_VEHICLE_PARTS                                                    :Componentes
 STR_CARGO_NAME_VEHICLES                                                         :Vehículos
-STR_CARGO_NAME_WOOL                                                             :La
+STR_CARGO_NAME_WOOL                                                             :Fibras animais
 STR_CARGO_NAME_YARN                                                             :Fío
 STR_CARGO_NAME_ZINC                                                             :Cinc
 
@@ -170,7 +170,7 @@ STR_CARGO_UNIT_COKE                                                             
 STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} de cobre
 STR_CARGO_UNIT_COPPER_CONCENTRATE                                               :{WEIGHT} de concentrado de cobre
 STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} de aceite alimentario
-STR_CARGO_UNIT_ELECTRICAL_PARTS                                                 :{WEIGHT} de partes eléctricas
+STR_CARGO_UNIT_ELECTRICAL_PARTS                                                 :{WEIGHT} de electrónica
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} caixa{P 0 "" s} de abastecementos de enxeñería
 STR_CARGO_UNIT_ETHYLENE                                                         :{VOLUME} de etileno
 STR_CARGO_UNIT_EXPLOSIVES                                                       :{SIGNED_WORD} caixa{P 0 "" s} de explosivos
@@ -212,7 +212,7 @@ STR_CARGO_UNIT_PIPE                                                             
 STR_CARGO_UNIT_PLASTICS                                                         :{WEIGHT} de plásticos
 STR_CARGO_UNIT_POTASH                                                           :{WEIGHT} de potasa
 STR_CARGO_UNIT_PROPYLENE                                                        :{VOLUME} de propileno
-STR_CARGO_UNIT_PYRITE_ORE                                                       :{WEIGHT} de mineral de pirita
+STR_CARGO_UNIT_PYRITE_ORE                                                       :{WEIGHT} de esfalerita
 STR_CARGO_UNIT_QUICKLIME                                                        :{WEIGHT} de cal
 STR_CARGO_UNIT_RAW_LATEX                                                        :{VOLUME} de latex crú
 STR_CARGO_UNIT_REBAR                                                            :{WEIGHT} de aceiro corrugado
@@ -240,7 +240,7 @@ STR_CARGO_UNIT_VEHICLE_BODIES                                                   
 STR_CARGO_UNIT_VEHICLE_ENGINES                                                  :{WEIGHT} de motores
 STR_CARGO_UNIT_VEHICLE_PARTS                                                    :{WEIGHT} de componentes
 STR_CARGO_UNIT_VEHICLES                                                         :{WEIGHT} de vehículos
-STR_CARGO_UNIT_WOOL                                                             :{SIGNED_WORD} paca{P 0 "" s} de la
+STR_CARGO_UNIT_WOOL                                                             :{SIGNED_WORD} paca{P 0 "" s} de fibras animais
 STR_CARGO_UNIT_YARN                                                             :{SIGNED_WORD} paca{P 0 "" s} de fíos
 STR_CARGO_UNIT_ZINC                                                             :{WEIGHT} de cinc
 
@@ -271,7 +271,7 @@ STR_CID_COKE                                                                    
 STR_CID_COPPER                                                                  :{TINYFONT}CU
 STR_CID_COPPER_CONCENTRATE                                                      :{TINYFONT}COCU
 STR_CID_EDIBLE_OIL                                                              :{TINYFONT}AA
-STR_CID_ELECTRICAL_PARTS                                                        :{TINYFONT}PTEL
+STR_CID_ELECTRICAL_PARTS                                                        :{TINYFONT}ELEC
 STR_CID_ENGINEERING_SUPPLIES                                                    :{TINYFONT}AE
 STR_CID_ETHYLENE                                                                :{TINYFONT}ETIL
 STR_CID_EXPLOSIVES                                                              :{TINYFONT}XP
@@ -340,7 +340,7 @@ STR_CID_VEHICLE_BODIES                                                          
 STR_CID_VEHICLE_ENGINES                                                         :{TINYFONT}MOTO
 STR_CID_VEHICLE_PARTS                                                           :{TINYFONT}COMP
 STR_CID_VEHICLES                                                                :{TINYFONT}VH
-STR_CID_WOOL                                                                    :{TINYFONT}LA
+STR_CID_WOOL                                                                    :{TINYFONT}FA
 STR_CID_YARN                                                                    :{TINYFONT}FIO
 STR_CID_ZINC                                                                    :{TINYFONT}ZN
 
@@ -375,7 +375,7 @@ STR_IND_BRICK_WORKS                                                             
 STR_IND_BUILDERS_YARD                                                           :Almacén de construción
 STR_IND_BULK_TERMINAL                                                           :Terminal de carga a granel de sólidos
 STR_IND_CARBON_BLACK_PLANT                                                      :Planta de carbón negro
-STR_IND_CEMENT_PLANT                                                            :Fábrica de cemento
+STR_IND_CEMENT_PLANT                                                            :Cementeira
 STR_IND_CHEMICAL_PLANT                                                          :Planta química
 STR_IND_CHLOR_ALKALI_PLANT                                                      :Planta de Procesos Cloroalcalinos
 STR_IND_CHROMITE_MINE                                                           :Mina de Cromita
@@ -385,7 +385,7 @@ STR_IND_COFFEE_ESTATE                                                           
 STR_IND_COKE_OVEN                                                               :Forno de coque
 STR_IND_COMPONENT_FACTORY                                                       :Fábrica de componentes
 STR_IND_COPPER_CONCENTRATOR                                                     :Concentrador de cobre
-STR_IND_COPPER_SMELTER                                                         :Refinería de cobre
+STR_IND_COPPER_SMELTER                                                          :Refinería de cobre
 STR_IND_CRYO_PLANT                                                              :Planta crioxénica
 STR_IND_DAIRY                                                                   :Central leiteira
 STR_IND_DAIRY_FARM                                                              :Explotación gandeira
@@ -414,7 +414,7 @@ STR_IND_HARDWARE_STORE                                                          
 STR_IND_HOTEL                                                                   :Hotel
 STR_IND_HERDING_COOP                                                            :Cooperativa de pastoreo
 STR_IND_IRON_WORKS                                                              :Siderúrxica
-STR_IND_SCRAP_YARD                                                              :Punto limpo
+STR_IND_SCRAP_YARD                                                              :Escombreira
 STR_IND_LATEX_PROCESSOR                                                         :Procesador de látex
 STR_IND_LIME_KILN                                                               :Forno de cal
 STR_IND_LIMESTONE_MINE                                                          :Mina de calcaria
@@ -422,7 +422,7 @@ STR_IND_LIQUIDS_TERMINAL                                                        
 STR_IND_TIMBER_YARD                                                             :Madeireira
 STR_IND_MACHINE_SHOP                                                            :Fábrica de maquinaria
 STR_IND_MANGANESE_MINE                                                          :Mina de manganeso
-STR_IND_METAL_WORKSHOP                                                          :Taller metálico
+STR_IND_METAL_WORKSHOP                                                          :Carpintería metálica
 STR_IND_MIXEDFARM                                                               :Explotación mixta
 STR_IND_NITRATE_MINE                                                            :Mina de nitratos
 STR_IND_ORCHARD_PIGGERY                                                         :Horta e cortello
@@ -431,7 +431,7 @@ STR_IND_PETROLPUMP                                                              
 STR_IND_PHOSPHATE_MINE                                                          :Mina de fosfatos
 STR_IND_PHOSPHORIC_ACID_PLANT                                                   :Planta de ácido fosfórico
 STR_IND_PLASTICS_PLANT                                                          :Fábrica de plásticos
-STR_IND_PLAZA                                                                   :Plaza
+STR_IND_PLAZA                                                                   :Praza
 STR_IND_POLYETHYLENE_PLANT                                                      :Planta de polietileno
 STR_IND_POLYPROPYLENE_PLANT                                                     :Planta de polipropileno
 STR_IND_PORT                                                                    :Peirao comercial
@@ -451,7 +451,7 @@ STR_IND_SMITHY_FORGE                                                            
 STR_IND_SODA_ASH_MINE                                                           :Mina de natrón
 STR_IND_SOLVAY_PLANT                                                            :Planta de proceso Solvay
 # we use 'integrated_steel_mill' in code to avoid confusion with Steeltown mills, but it's easier to just use 'Steel Mill' for name that players see
-STR_IND_INTEGRATED_STEEL_MILL                                                   :Acería
+STR_IND_INTEGRATED_STEEL_MILL                                                   :Siderúrxica
 STR_IND_SHEET_AND_PIPE_MILL                                                     :Fábrica de follas e tuberías
 STR_IND_STOCKYARD                                                               :Matadoiro
 STR_IND_SUGAR_REFINERY                                                          :Refinería de azucre
@@ -486,9 +486,9 @@ STR_STATION_ANIMALS                                                             
 STR_STATION_AUTOMOTIVE                                                          :Planta de ensamblaxe
 STR_STATION_BAR_GRILL_AND_ROOMS                                                 :Albergue
 STR_STATION_BARNS                                                               :Celeiros
-STR_STATION_BARREL_AND_KEG                                                      :Cervexería
+STR_STATION_BARREL_AND_KEG                                                      :Cervexeira
 STR_STATION_BASE                                                                :Base
-STR_STATION_BONEYARD                                                            :Punto limpo
+STR_STATION_BONEYARD                                                            :Escombreira
 STR_STATION_BANK_TOP                                                            :Banco
 STR_STATION_BRINE_WORKS                                                         :Salgueiral
 STR_STATION_CASTINGS                                                            :Fundicións
@@ -539,7 +539,7 @@ STR_STATION_PLAZA                                                               
 STR_STATION_POWERHUNGRY                                                         :Central eléctrica
 STR_STATION_POWERTRAIN                                                          :Sistemas de propulsion
 STR_STATION_PUMPS                                                               :Gasolineira
-STR_STATION_PYRITES                                                             :Depósitos de pirita
+STR_STATION_PYRITES                                                             :Depósitos de esfalerita
 STR_STATION_ROD_MILL                                                            :Muíño de varas
 STR_STATION_REFINERY                                                            :Refinería
 STR_STATION_RUBBER_COMPANY                                                      :Compañía de caucho

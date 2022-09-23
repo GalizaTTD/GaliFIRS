@@ -22,9 +22,9 @@ industry.enable_in_economy(
     "GALIZA",
     accept_cargo_types=[
         "BDMT",
-        "STEL",
         "SAND",
         "GLAS",
+        "GRVL",
     ],
 )
 
