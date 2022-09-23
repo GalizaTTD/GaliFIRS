@@ -25,7 +25,7 @@ industry.enable_in_economy(
     accept_cargos_with_input_ratios=[
         ("SAND", 6),
         ("RCYC", 6),		
-        ("RFPR", 2),
+    #    ("RFPR", 2),
     ],
     prod_cargo_types_with_output_ratios=[
         ("GLAS", 8),

@@ -22,6 +22,7 @@ industry = IndustrySecondary(
 
 industry.enable_in_economy(
     "GALIZA",
+	accept_cargos_with_input_ratios=[("PEAT", 6)]
 )
 
 industry.add_tile(
