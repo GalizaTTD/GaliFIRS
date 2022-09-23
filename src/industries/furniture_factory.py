@@ -4,10 +4,9 @@ industry = IndustrySecondary(
     id="furniture_factory",
     accept_cargos_with_input_ratios=[
         ("WDPR", 6),
-        ("COAT", 2),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("FURN", 8),
+        ("GOOD", 8),
     ],
     prob_in_game="7",
     prob_map_gen="8",
@@ -18,6 +17,9 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+)
 
 industry.add_tile(
     id="furniture_factory_tile_1",
@@ -54,6 +56,7 @@ spriteset_6 = industry.add_spriteset(
 
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_1",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_1],
@@ -61,6 +64,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_2",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_2],
@@ -68,6 +72,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_3",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_3],
@@ -75,6 +80,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_4",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_4],
@@ -82,6 +88,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_5",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_5],
@@ -89,6 +96,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="furniture_factory_spritelayout_6",
+	tile="furniture_factory_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_6],
@@ -98,65 +106,65 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="furniture_factory_industry_layout_1",
     layout=[
-        (0, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (1, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_5"),
-        (1, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (2, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_4"),
-        (2, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
+        (0, 1, "furniture_factory_spritelayout_3"),
+        (1, 0, "furniture_factory_spritelayout_5"),
+        (1, 1, "furniture_factory_spritelayout_2"),
+        (2, 0, "furniture_factory_spritelayout_4"),
+        (2, 1, "furniture_factory_spritelayout_1"),
     ],
 )
 industry.add_industry_layout(
     id="furniture_factory_industry_layout_2",
     layout=[
-        (0, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_5"),
-        (0, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (1, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_4"),
-        (1, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (2, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
-        (2, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
+        (0, 0, "furniture_factory_spritelayout_5"),
+        (0, 1, "furniture_factory_spritelayout_3"),
+        (1, 0, "furniture_factory_spritelayout_4"),
+        (1, 1, "furniture_factory_spritelayout_2"),
+        (2, 0, "furniture_factory_spritelayout_6"),
+        (2, 1, "furniture_factory_spritelayout_1"),
     ],
 )
 industry.add_industry_layout(
     id="furniture_factory_industry_layout_3",
     layout=[
-        (0, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (0, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
-        (1, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (1, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (2, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
-        (2, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (3, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_5"),
-        (3, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
-        (4, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_4"),
-        (4, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
+        (0, 0, "furniture_factory_spritelayout_3"),
+        (0, 1, "furniture_factory_spritelayout_6"),
+        (1, 0, "furniture_factory_spritelayout_2"),
+        (1, 1, "furniture_factory_spritelayout_3"),
+        (2, 0, "furniture_factory_spritelayout_1"),
+        (2, 1, "furniture_factory_spritelayout_2"),
+        (3, 0, "furniture_factory_spritelayout_5"),
+        (3, 1, "furniture_factory_spritelayout_1"),
+        (4, 0, "furniture_factory_spritelayout_4"),
+        (4, 1, "furniture_factory_spritelayout_6"),
     ],
 )
 industry.add_industry_layout(
     id="furniture_factory_industry_layout_4",
     layout=[
-        (0, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_5"),
-        (0, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
-        (1, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_4"),
-        (1, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
-        (2, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (2, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (3, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (3, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (4, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
-        (4, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
+        (0, 0, "furniture_factory_spritelayout_5"),
+        (0, 1, "furniture_factory_spritelayout_6"),
+        (1, 0, "furniture_factory_spritelayout_4"),
+        (1, 1, "furniture_factory_spritelayout_6"),
+        (2, 0, "furniture_factory_spritelayout_3"),
+        (2, 1, "furniture_factory_spritelayout_3"),
+        (3, 0, "furniture_factory_spritelayout_2"),
+        (3, 1, "furniture_factory_spritelayout_2"),
+        (4, 0, "furniture_factory_spritelayout_1"),
+        (4, 1, "furniture_factory_spritelayout_1"),
     ],
 )
 industry.add_industry_layout(
     id="furniture_factory_industry_layout_5",
     layout=[
-        (0, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_5"),
-        (0, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (0, 2, "furniture_factory_tile_1", "furniture_factory_spritelayout_3"),
-        (1, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_4"),
-        (1, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (1, 2, "furniture_factory_tile_1", "furniture_factory_spritelayout_2"),
-        (2, 0, "furniture_factory_tile_1", "furniture_factory_spritelayout_6"),
-        (2, 1, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
-        (2, 2, "furniture_factory_tile_1", "furniture_factory_spritelayout_1"),
+        (0, 0, "furniture_factory_spritelayout_5"),
+        (0, 1, "furniture_factory_spritelayout_3"),
+        (0, 2, "furniture_factory_spritelayout_3"),
+        (1, 0, "furniture_factory_spritelayout_4"),
+        (1, 1, "furniture_factory_spritelayout_2"),
+        (1, 2, "furniture_factory_spritelayout_2"),
+        (2, 0, "furniture_factory_spritelayout_6"),
+        (2, 1, "furniture_factory_spritelayout_1"),
+        (2, 2, "furniture_factory_spritelayout_1"),
     ],
 )

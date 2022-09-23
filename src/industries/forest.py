@@ -20,6 +20,10 @@ industry = IndustryPrimaryOrganic(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+    prod_cargo_types_with_multipliers=[("WOOD", 24), ("PEAT", 12)],
+)
+industry.enable_in_economy(
     "BASIC_ARCTIC",
     prod_cargo_types_with_multipliers=[("WOOD", 24)],
 )

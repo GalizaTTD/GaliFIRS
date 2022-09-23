@@ -19,6 +19,16 @@ industry = IndustryPrimaryOrganic(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+    prod_cargo_types_with_multipliers=[
+		("GRAI", 14),
+		("BEAN", 14),
+		("FICR", 14),
+		("PEAT", 14),
+    ],
+)
+
+industry.enable_in_economy(
     "BASIC_TROPIC",
     prod_cargo_types_with_multipliers=[
         ("GRAI", 14),

@@ -17,6 +17,16 @@ industry = IndustrySecondary(
 
 
 industry.enable_in_economy(
+    "GALIZA",
+    intro_year=1800,
+    name="string(STR_IND_INTEGRATED_STEEL_MILL)",  # use the simpler name in Basic Temperate to aid players new to FIRS
+    accept_cargos_with_input_ratios=[
+        ("IORE", 3),
+        ("COAL", 2),
+        ("SCMT", 3),
+    ],
+)
+industry.enable_in_economy(
     "BASIC_TEMPERATE",
     intro_year=1800,
     name="string(STR_IND_INTEGRATED_STEEL_MILL)",  # use the simpler name in Basic Temperate to aid players new to FIRS

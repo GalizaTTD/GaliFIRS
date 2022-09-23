@@ -25,6 +25,10 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+	prod_cargo_types_with_output_ratios=[("ZINC", 4)]
+)
+industry.enable_in_economy(
     "BASIC_ARCTIC",
 )
 

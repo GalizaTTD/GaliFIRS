@@ -70,6 +70,7 @@ from cargos import phosphate
 from cargos import phosphoric_acid
 from cargos import pig_iron
 from cargos import pipe
+from cargos import plant_fibres
 from cargos import plastics
 from cargos import potash
 from cargos import pyrite_ore
@@ -172,12 +173,13 @@ phosphate.cargo.register()
 # BLTC phosphoric_acid.cargo.register()
 pig_iron.cargo.register()
 pipe.cargo.register()
+plant_fibres.cargo.register()
 plastics.cargo.register()
 potash.cargo.register()
 pyrite_ore.cargo.register()
 quicklime.cargo.register()
 # IAHC raw_latex.cargo.register()
-# UNUSED recyclables.cargo.register()
+recyclables.cargo.register()
 rubber.cargo.register()
 sand.cargo.register()
 salt.cargo.register()

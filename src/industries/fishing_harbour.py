@@ -27,6 +27,9 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+)
+industry.enable_in_economy(
     "BASIC_TEMPERATE",
 )
 industry.enable_in_economy(

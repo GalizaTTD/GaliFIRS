@@ -24,6 +24,10 @@ industry = IndustryPrimaryOrganic(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+	prod_cargo_types_with_multipliers = [("LVST", 12), ("MILK", 14), ("WOOL", 14)]
+)
+industry.enable_in_economy(
     "BASIC_TEMPERATE",
 )
 

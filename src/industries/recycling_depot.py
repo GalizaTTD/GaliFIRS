@@ -20,6 +20,9 @@ industry = IndustryTownProducerPopulationDependent(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+)
 
 industry.add_tile(
     id="recycling_depot_tile_1",
@@ -39,6 +42,7 @@ spriteset_no_hut = industry.add_spriteset(sprites=[(80, 10, 64, 31, -31, 0)])
 
 industry.add_spritelayout(
     id="recycling_depot_spritelayout_hut",
+	tile="recycling_depot_tile_1",
     ground_sprite=sprite_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_hut],
@@ -46,6 +50,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_depot_spritelayout_no_hut",
+	tile="recycling_depot_tile_1",
     ground_sprite=sprite_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_no_hut],
@@ -54,9 +59,9 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="recycling_depot_industry_layout",
     layout=[
-        (0, 0, "recycling_depot_tile_1", "recycling_depot_spritelayout_hut"),
-        (0, 1, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
-        (1, 0, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
-        (1, 1, "recycling_depot_tile_1", "recycling_depot_spritelayout_no_hut"),
+        (0, 0, "recycling_depot_spritelayout_hut"),
+        (0, 1, "recycling_depot_spritelayout_no_hut"),
+        (1, 0, "recycling_depot_spritelayout_no_hut"),
+        (1, 1, "recycling_depot_spritelayout_no_hut"),
     ],
 )

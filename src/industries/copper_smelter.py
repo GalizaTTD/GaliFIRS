@@ -28,6 +28,7 @@ industry.enable_in_economy(
         "more_west",
     ],
 )
+industry.enable_in_economy("GALIZA")
 
 industry.enable_in_economy("IN_A_HOT_COUNTRY")
 # industry.economy_variations['IN_A_HOT_COUNTRY'].accept_cargos_with_input_ratios = [('COCO', 8)]

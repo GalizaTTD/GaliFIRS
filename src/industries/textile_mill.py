@@ -7,7 +7,7 @@ industry = IndustrySecondary(
     ],
     combined_cargos_boost_prod=True,
     prod_cargo_types_with_output_ratios=[
-        ("TEXT", 8),
+        ("GOOD", 8),
     ],
     prob_in_game="3",
     prob_map_gen="5",
@@ -19,6 +19,11 @@ industry = IndustrySecondary(
 )
 
 
+industry.enable_in_economy(
+    "GALIZA",
+    accept_cargos_with_input_ratios=[("FICR", 6),("WOOL", 6)],
+    prod_cargo_types_with_output_ratios=[("GOOD", 8)],
+)
 """
 industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",

@@ -19,10 +19,10 @@ from industries import basic_oxygen_furnace
 
 basic_oxygen_furnace.industry.register()
 
-"""
+
 from industries import biorefinery
 biorefinery.industry.register()
-"""
+
 
 from industries import blast_furnace
 
@@ -153,10 +153,10 @@ from industries import flour_mill
 
 flour_mill.industry.register()
 
-"""
+
 from industries import food_market
 food_market.industry.register()
-"""
+
 
 from industries import food_processor
 
@@ -181,6 +181,10 @@ forest.industry.register()
 from industries import fruit_plantation
 
 fruit_plantation.industry.register()
+
+from industries import furniture_factory
+
+furniture_factory.industry.register()
 
 from industries import general_store
 
@@ -314,10 +318,10 @@ from industries import ranch
 
 ranch.industry.register()
 
-"""
+
 from industries import recycling_depot
 recycling_depot.industry.register()
-"""
+
 
 """
 from industries import recycling_plant
@@ -374,6 +378,10 @@ supply_yard.industry.register()
 from industries import timber_yard
 
 timber_yard.industry.register()
+
+from industries import textile_mill
+
+textile_mill.industry.register()
 
 from industries import trading_post
 

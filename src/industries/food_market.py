@@ -22,6 +22,11 @@ industry = IndustryTertiary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+    accept_cargos_with_input_ratios=["FOOD","BEER"],
+)
+
 industry.add_tile(
     id="food_market_tile_1",
     location_checks=TileLocationChecks(require_road_adjacent=True),

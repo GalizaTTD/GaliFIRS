@@ -4,7 +4,7 @@ industry = IndustrySecondary(
     id="biorefinery",
     accept_cargos_with_input_ratios=[
         ("GRAI", 6),
-        ("SGBT", 6),
+        ("PEAT", 6),
     ],
     prod_cargo_types_with_output_ratios=[
         ("RFPR", 4),
@@ -20,6 +20,9 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+)
 
 industry.add_tile(
     id="biorefinery_tile_1",
@@ -72,6 +75,7 @@ sprite_smoke_2 = industry.add_smoke_sprite(
 
 industry.add_spritelayout(
     id="biorefinery_spritelayout_1",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_1],
@@ -79,6 +83,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_2",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_2],
@@ -86,6 +91,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_3",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_3],
@@ -93,6 +99,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_4",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_4],
@@ -100,6 +107,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_5",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_5],
@@ -107,6 +115,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_6_anim",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_6],
@@ -115,6 +124,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_7",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_7],
@@ -122,6 +132,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_8",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_8],
@@ -129,6 +140,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="biorefinery_spritelayout_9",
+    tile="biorefinery_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[],
@@ -138,74 +150,74 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="biorefinery_industry_layout_1",
     layout=[
-        (0, 0, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (0, 1, "biorefinery_tile_1", "biorefinery_spritelayout_2"),
-        (0, 2, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (0, 3, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (1, 0, "biorefinery_tile_1", "biorefinery_spritelayout_8"),
-        (1, 1, "biorefinery_tile_1", "biorefinery_spritelayout_4"),
-        (1, 2, "biorefinery_tile_1", "biorefinery_spritelayout_5"),
-        (1, 3, "biorefinery_tile_1", "biorefinery_spritelayout_6_anim"),
-        (2, 0, "biorefinery_tile_1", "biorefinery_spritelayout_7"),
-        (2, 1, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (2, 2, "biorefinery_tile_1", "biorefinery_spritelayout_3"),
-        (2, 3, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
+        (0, 0, "biorefinery_spritelayout_9"),
+        (0, 1, "biorefinery_spritelayout_2"),
+        (0, 2, "biorefinery_spritelayout_1"),
+        (0, 3, "biorefinery_spritelayout_1"),
+        (1, 0, "biorefinery_spritelayout_8"),
+        (1, 1, "biorefinery_spritelayout_4"),
+        (1, 2, "biorefinery_spritelayout_5"),
+        (1, 3, "biorefinery_spritelayout_6_anim"),
+        (2, 0, "biorefinery_spritelayout_7"),
+        (2, 1, "biorefinery_spritelayout_9"),
+        (2, 2, "biorefinery_spritelayout_3"),
+        (2, 3, "biorefinery_spritelayout_9"),
     ],
 )
 industry.add_industry_layout(
     id="biorefinery_industry_layout_2",
     layout=[
-        (0, 0, "biorefinery_tile_1", "biorefinery_spritelayout_8"),
-        (0, 1, "biorefinery_tile_1", "biorefinery_spritelayout_4"),
-        (0, 2, "biorefinery_tile_1", "biorefinery_spritelayout_5"),
-        (0, 3, "biorefinery_tile_1", "biorefinery_spritelayout_6_anim"),
-        (0, 4, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 0, "biorefinery_tile_1", "biorefinery_spritelayout_7"),
-        (1, 1, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 2, "biorefinery_tile_1", "biorefinery_spritelayout_3"),
-        (1, 3, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 4, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (2, 0, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (2, 1, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (2, 2, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (2, 3, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (2, 4, "biorefinery_tile_1", "biorefinery_spritelayout_2"),
+        (0, 0, "biorefinery_spritelayout_8"),
+        (0, 1, "biorefinery_spritelayout_4"),
+        (0, 2, "biorefinery_spritelayout_5"),
+        (0, 3, "biorefinery_spritelayout_6_anim"),
+        (0, 4, "biorefinery_spritelayout_9"),
+        (1, 0, "biorefinery_spritelayout_7"),
+        (1, 1, "biorefinery_spritelayout_9"),
+        (1, 2, "biorefinery_spritelayout_3"),
+        (1, 3, "biorefinery_spritelayout_9"),
+        (1, 4, "biorefinery_spritelayout_9"),
+        (2, 0, "biorefinery_spritelayout_9"),
+        (2, 1, "biorefinery_spritelayout_9"),
+        (2, 2, "biorefinery_spritelayout_1"),
+        (2, 3, "biorefinery_spritelayout_1"),
+        (2, 4, "biorefinery_spritelayout_2"),
     ],
 )
 industry.add_industry_layout(
     id="biorefinery_industry_layout_3",
     layout=[
-        (0, 0, "biorefinery_tile_1", "biorefinery_spritelayout_2"),
-        (0, 1, "biorefinery_tile_1", "biorefinery_spritelayout_2"),
-        (0, 2, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 0, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 1, "biorefinery_tile_1", "biorefinery_spritelayout_4"),
-        (1, 2, "biorefinery_tile_1", "biorefinery_spritelayout_3"),
-        (2, 0, "biorefinery_tile_1", "biorefinery_spritelayout_8"),
-        (2, 1, "biorefinery_tile_1", "biorefinery_spritelayout_5"),
-        (2, 2, "biorefinery_tile_1", "biorefinery_spritelayout_6_anim"),
-        (3, 0, "biorefinery_tile_1", "biorefinery_spritelayout_7"),
-        (3, 1, "biorefinery_tile_1", "biorefinery_spritelayout_3"),
-        (3, 2, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (4, 0, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (4, 1, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (4, 2, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
+        (0, 0, "biorefinery_spritelayout_2"),
+        (0, 1, "biorefinery_spritelayout_2"),
+        (0, 2, "biorefinery_spritelayout_9"),
+        (1, 0, "biorefinery_spritelayout_9"),
+        (1, 1, "biorefinery_spritelayout_4"),
+        (1, 2, "biorefinery_spritelayout_3"),
+        (2, 0, "biorefinery_spritelayout_8"),
+        (2, 1, "biorefinery_spritelayout_5"),
+        (2, 2, "biorefinery_spritelayout_6_anim"),
+        (3, 0, "biorefinery_spritelayout_7"),
+        (3, 1, "biorefinery_spritelayout_3"),
+        (3, 2, "biorefinery_spritelayout_9"),
+        (4, 0, "biorefinery_spritelayout_9"),
+        (4, 1, "biorefinery_spritelayout_1"),
+        (4, 2, "biorefinery_spritelayout_1"),
     ],
 )
 industry.add_industry_layout(
     id="biorefinery_industry_layout_4",
     layout=[
-        (0, 0, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (0, 1, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (0, 2, "biorefinery_tile_1", "biorefinery_spritelayout_8"),
-        (1, 0, "biorefinery_tile_1", "biorefinery_spritelayout_1"),
-        (1, 1, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
-        (1, 2, "biorefinery_tile_1", "biorefinery_spritelayout_7"),
-        (2, 0, "biorefinery_tile_1", "biorefinery_spritelayout_4"),
-        (2, 1, "biorefinery_tile_1", "biorefinery_spritelayout_5"),
-        (2, 2, "biorefinery_tile_1", "biorefinery_spritelayout_6_anim"),
-        (3, 0, "biorefinery_tile_1", "biorefinery_spritelayout_2"),
-        (3, 1, "biorefinery_tile_1", "biorefinery_spritelayout_3"),
-        (3, 2, "biorefinery_tile_1", "biorefinery_spritelayout_9"),
+        (0, 0, "biorefinery_spritelayout_1"),
+        (0, 1, "biorefinery_spritelayout_9"),
+        (0, 2, "biorefinery_spritelayout_8"),
+        (1, 0, "biorefinery_spritelayout_1"),
+        (1, 1, "biorefinery_spritelayout_9"),
+        (1, 2, "biorefinery_spritelayout_7"),
+        (2, 0, "biorefinery_spritelayout_4"),
+        (2, 1, "biorefinery_spritelayout_5"),
+        (2, 2, "biorefinery_spritelayout_6_anim"),
+        (3, 0, "biorefinery_spritelayout_2"),
+        (3, 1, "biorefinery_spritelayout_3"),
+        (3, 2, "biorefinery_spritelayout_9"),
     ],
 )

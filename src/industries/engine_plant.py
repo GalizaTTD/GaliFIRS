@@ -21,6 +21,13 @@ industry = IndustrySecondary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+	accept_cargos_with_input_ratios=[
+		("COPR", 4),
+		("ZINC", 4),
+    ]
+)
+industry.enable_in_economy(
     "STEELTOWN",
 )
 

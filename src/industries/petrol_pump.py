@@ -22,6 +22,10 @@ industry = IndustryTertiary(
 )
 
 industry.enable_in_economy(
+    "GALIZA",
+)
+
+industry.enable_in_economy(
     "IN_A_HOT_COUNTRY",
 )
 
