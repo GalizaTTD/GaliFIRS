@@ -23,10 +23,10 @@ industry.enable_in_economy(
     ],
     prod_cargo_types_with_multipliers=[
 		("RUBR", 16),
-		("POWR", 16),
-		("FMSP", 16),
-		("ENSP", 16),
-		("PETR", 16),
+		("POWR", 14),
+		("FMSP", 20),
+		("ENSP", 20),
+		("PETR", 24),
     ],
 )
 industry.enable_in_economy(

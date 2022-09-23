@@ -28,6 +28,10 @@ industry = IndustryPrimaryOrganic(
 
 industry.enable_in_economy(
     "GALIZA",
+	special_flags=[
+        "IND_FLAG_BUILT_ON_WATER",
+        "IND_FLAG_AI_CREATES_AIR_AND_SHIP_ROUTES",
+    ],
 )
 industry.enable_in_economy(
     "BASIC_ARCTIC",
