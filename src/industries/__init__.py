@@ -406,3 +406,9 @@ wharf.industry.register()
 from industries import wire_and_section_mill
 
 wire_and_section_mill.industry.register()
+
+from industries import water_plant
+water_plant.industry.register()
+
+from industries import electrolysis_plant
+electrolysis_plant.industry.register()

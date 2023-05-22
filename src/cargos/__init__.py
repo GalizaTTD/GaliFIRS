@@ -102,6 +102,8 @@ from cargos import vehicles
 from cargos import wool
 from cargos import yarn
 from cargos import zinc
+from cargos import water
+from cargos import hydrogen
 
 acid.cargo.register()
 alcohol.cargo.register()
@@ -205,3 +207,5 @@ vehicles.cargo.register()
 wool.cargo.register()
 # IAHC yarn.cargo.register()
 zinc.cargo.register()
+water.cargo.register()
+hydrogen.cargo.register()

@@ -49,6 +49,8 @@ economy = Economy(
 		"zinc",
 		"stone",
 		"clay", #40
+		"water",
+		"hydrogen",
     ],
     # as of April 2021 this cargoflow graph is really as optimised as can be
     # the main driver is preventing ugly appearance of the edges that converge on food, most of the layout is arranged around preventing that
@@ -56,18 +58,18 @@ economy = Economy(
 	#	"group_edges_subgraphs": [],
 	#	"ranking_subgraphs": [],
 	#	"clusters": []
-        "group_edges_subgraphs": [ 
+        "group_edges_subgraphs": [
 	#		["textile_mill", "dairy_farm"],
 		],
-        "ranking_subgraphs": [		
+        "ranking_subgraphs": [
             ("source", ["pyrite_mine", "copper_mine"]),
             ("same", ["integrated_steel_mill","pyrite_smelter", "copper_smelter","recycling_depot"]),
             ("same", ["textile_mill","furniture_factory"]),
             ("same", ["paper_mill","sawmill", "power_plant", "biorefinery"]),
             ("same", ["forest","glass_works"]),
 
-			
-			
+
+
             ("same", ["rubber", "vehicles","goods"]),
             ("same", ["supply_yard","assembly_plant"]),
             (

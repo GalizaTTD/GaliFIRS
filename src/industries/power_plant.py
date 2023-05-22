@@ -19,7 +19,7 @@ industry = IndustryTertiary(
 
 industry.enable_in_economy(
     "GALIZA",
-    accept_cargo_types=["PEAT", "COAL"],
+    accept_cargo_types=["PEAT", "COAL", "H2__"],
 )
 industry.enable_in_economy(
     "BASIC_ARCTIC",

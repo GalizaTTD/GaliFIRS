@@ -104,6 +104,7 @@ STR_CARGO_NAME_NICKEL                                                           
 STR_CARGO_NAME_NITRATES                                                         :Nitrates
 STR_CARGO_NAME_NUTS                                                             :Nuts
 STR_CARGO_NAME_OXYGEN                                                           :Oxygen
+STR_CARGO_NAME_HYDROGEN                                                         :Hydrogen
 STR_CARGO_NAME_PACKAGING                                                        :Packaging
 STR_CARGO_NAME_PAINTS_AND_COATINGS                                              :Paints & Coatings
 STR_CARGO_NAME_PEAT                                                             :Peat
@@ -204,6 +205,7 @@ STR_CARGO_UNIT_NICKEL                                                           
 STR_CARGO_UNIT_NITRATES                                                         :{WEIGHT} of nitrates
 STR_CARGO_UNIT_NUTS                                                             :{SIGNED_WORD} sack{P 0 "" s}  of nuts
 STR_CARGO_UNIT_OXYGEN                                                           :{VOLUME} of oxygen
+STR_CARGO_UNIT_HYDROGEN                                                         :{VOLUME} of hydrogen
 STR_CARGO_UNIT_PACKAGING                                                        :{WEIGHT} of packaging
 STR_CARGO_UNIT_PAINTS_AND_COATINGS                                              :{VOLUME} of paints & coatings
 STR_CARGO_UNIT_PEAT                                                             :{WEIGHT} of peat
@@ -304,6 +306,7 @@ STR_CID_NICKEL                                                                  
 STR_CID_NITRATES                                                                :{TINYFONT}NI
 STR_CID_NUTS                                                                    :{TINYFONT}NT
 STR_CID_OXYGEN                                                                  :{TINYFONT}O2
+STR_CID_HYDROGEN                                                                :{TINYFONT}H2
 STR_CID_PACKAGING                                                               :{TINYFONT}PK
 STR_CID_PAINTS_AND_COATINGS                                                     :{TINYFONT}PC
 STR_CID_PEAT                                                                    :{TINYFONT}PE
@@ -394,6 +397,7 @@ STR_IND_DAIRY                                                                   
 STR_IND_DAIRY_FARM                                                              :Dairy Farm
 STR_IND_DREDGING_SITE                                                           :Dredging Site
 STR_IND_ELECTRIC_ARC_FURNACE                                                    :Electric Arc Furnace
+STR_IND_ELECTROLYSIS_PLANT                                                      :Electrolysis Plant
 STR_IND_ENGINE_PLANT                                                            :Engine Plant
 STR_IND_ETHYLENE_CRACKER                                                        :Naphtha Cracker
 STR_IND_FARM                                                                    :Farm
@@ -502,6 +506,7 @@ STR_STATION_COMPONENTS                                                          
 STR_STATION_COPPER_LODE                                                         :Copper Lode
 STR_STATION_CREOSOTING                                                          :Creosoting
 STR_STATION_CRYO_PLANT                                                          :Cryo Plant
+STR_STATION_ELECTROLYSIS_PLANT                                                  :Electrolysis Plant
 STR_STATION_DAIRY_LANE                                                          :Dairy Lane
 STR_STATION_DYNAMO                                                              :Dynamo
 STR_STATION_ESTATE                                                              :Estate
