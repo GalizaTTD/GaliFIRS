@@ -90,12 +90,12 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="power_plant_industry_layout_1",
     layout=[
-        (0, 0, "power_plant_spritelayout_cooling_tower"),
+        (0, 0, "power_plant_spritelayout_small_building"),
         (0, 1, "power_plant_spritelayout_small_building"),
-        (1, 0, "power_plant_spritelayout_cooling_tower"),
-        (1, 1, "power_plant_spritelayout_large_building"),
-        (2, 0, "power_plant_spritelayout_cooling_tower"),
-        (2, 1, "power_plant_spritelayout_large_building"),
+        (1, 0, "power_plant_spritelayout_substation"),
+        (1, 1, "power_plant_spritelayout_substation"),
+        (2, 0, "power_plant_spritelayout_substation"),
+        (2, 1, "power_plant_spritelayout_substation"),
         (3, 0, "power_plant_spritelayout_substation"),
         (3, 1, "power_plant_spritelayout_substation"),
     ],
@@ -103,24 +103,24 @@ industry.add_industry_layout(
 industry.add_industry_layout(
     id="power_plant_industry_layout_2",
     layout=[
-        (0, 1, "power_plant_spritelayout_cooling_tower"),
-        (0, 2, "power_plant_spritelayout_cooling_tower"),
-        (1, 0, "power_plant_spritelayout_large_building"),
-        (1, 1, "power_plant_spritelayout_large_building"),
-        (1, 2, "power_plant_spritelayout_cooling_tower"),
+        (0, 1, "power_plant_spritelayout_substation"),
+        (0, 2, "power_plant_spritelayout_substation"),
+        (1, 0, "power_plant_spritelayout_small_building"),
+        (1, 1, "power_plant_spritelayout_substation"),
+        (1, 2, "power_plant_spritelayout_substation"),
         (2, 0, "power_plant_spritelayout_small_building"),
         (2, 1, "power_plant_spritelayout_substation"),
-        (2, 2, "power_plant_spritelayout_small_building"),
+        (2, 2, "power_plant_spritelayout_substation"),
     ],
 )
 industry.add_industry_layout(
     id="power_plant_industry_layout_3",
     layout=[
-        (0, 0, "power_plant_spritelayout_cooling_tower"),
-        (0, 1, "power_plant_spritelayout_cooling_tower"),
-        (1, 0, "power_plant_spritelayout_small_building"),
-        (1, 1, "power_plant_spritelayout_large_building"),
-        (2, 0, "power_plant_spritelayout_substation"),
+        (0, 0, "power_plant_spritelayout_substation"),
+        (0, 1, "power_plant_spritelayout_substation"),
+        (1, 0, "power_plant_spritelayout_substation"),
+        (1, 1, "power_plant_spritelayout_substation"),
+        (2, 0, "power_plant_spritelayout_small_building"),
         (2, 1, "power_plant_spritelayout_small_building"),
     ],
 )
