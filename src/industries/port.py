@@ -19,7 +19,7 @@ industry = IndustryPrimaryPort(
 industry.enable_in_economy(
     "GALIZA",
     accept_cargo_types=[
-        "VEHI", "GOOD", "BDMT","RFPR", "COAL", "ZINC"
+        "VEHI", "GOOD", "BDMT","RFPR", "COAL", "ZINC", "H2__"
     ],
     prod_cargo_types_with_multipliers=[
 		("RUBR", 16),

@@ -22,8 +22,8 @@ industry = IndustrySecondary(
 
 industry.enable_in_economy(
     "GALIZA",
-	accept_cargos_with_input_ratios=[("PEAT", 6)],
-	prod_cargo_types_with_output_ratios=[("RFPR", 2), ("PETR", 6)],
+	accept_cargos_with_input_ratios=[("PEAT", 6), ("H2__", 6)],
+	prod_cargo_types_with_output_ratios=[("PETR", 6)],
 )
 
 industry.add_tile(

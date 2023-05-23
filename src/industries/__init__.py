@@ -36,10 +36,10 @@ from industries import brewery
 
 brewery.industry.register()
 
-"""
+
 from industries import brick_works
 brick_works.industry.register()
-"""
+
 
 from industries import builders_yard
 

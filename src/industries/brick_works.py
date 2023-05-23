@@ -21,6 +21,18 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+    accept_cargos_with_input_ratios=[
+        ("WATR", 2),
+        ("CLAY", 4),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("GOOD", 8),
+        ("BDMT", 8),
+    ],
+)
+
 # unused currently
 
 industry.add_tile(
@@ -77,6 +89,7 @@ sprite_smoke_kiln = industry.add_smoke_sprite(
 
 industry.add_spritelayout(
     id="brick_works_spritelayout_1",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_1],
@@ -85,6 +98,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="brick_works_spritelayout_2",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_2],
@@ -92,6 +106,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="brick_works_spritelayout_3",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_3],
@@ -100,6 +115,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="brick_works_spritelayout_4",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_4],
@@ -107,6 +123,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="brick_works_spritelayout_sand_staithe",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_sand_staithe],
@@ -114,6 +131,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="brick_works_spritelayout_clay_staithe",
+    tile="brick_works_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_clay_staithe],
@@ -123,39 +141,39 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="brick_works_industry_layout_1",
     layout=[
-        (0, 0, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (0, 1, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (1, 0, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (1, 1, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (2, 0, "brick_works_tile_1", "brick_works_spritelayout_2"),
-        (2, 1, "brick_works_tile_1", "brick_works_spritelayout_1"),
-        (3, 0, "brick_works_tile_1", "brick_works_spritelayout_clay_staithe"),
-        (3, 1, "brick_works_tile_1", "brick_works_spritelayout_sand_staithe"),
+        (0, 0, "brick_works_spritelayout_4"),
+        (0, 1, "brick_works_spritelayout_4"),
+        (1, 0, "brick_works_spritelayout_3"),
+        (1, 1, "brick_works_spritelayout_3"),
+        (2, 0, "brick_works_spritelayout_2"),
+        (2, 1, "brick_works_spritelayout_1"),
+        (3, 0, "brick_works_spritelayout_clay_staithe"),
+        (3, 1, "brick_works_spritelayout_sand_staithe"),
     ],
 )
 industry.add_industry_layout(
     id="brick_works_industry_layout_2",
     layout=[
-        (0, 0, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (0, 1, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (1, 0, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (1, 1, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (2, 0, "brick_works_tile_1", "brick_works_spritelayout_2"),
-        (2, 1, "brick_works_tile_1", "brick_works_spritelayout_clay_staithe"),
-        (3, 0, "brick_works_tile_1", "brick_works_spritelayout_1"),
-        (3, 1, "brick_works_tile_1", "brick_works_spritelayout_sand_staithe"),
+        (0, 0, "brick_works_spritelayout_4"),
+        (0, 1, "brick_works_spritelayout_4"),
+        (1, 0, "brick_works_spritelayout_3"),
+        (1, 1, "brick_works_spritelayout_3"),
+        (2, 0, "brick_works_spritelayout_2"),
+        (2, 1, "brick_works_spritelayout_clay_staithe"),
+        (3, 0, "brick_works_spritelayout_1"),
+        (3, 1, "brick_works_spritelayout_sand_staithe"),
     ],
 )
 industry.add_industry_layout(
     id="brick_works_industry_layout_3",
     layout=[
-        (0, 0, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (0, 1, "brick_works_tile_1", "brick_works_spritelayout_4"),
-        (0, 2, "brick_works_tile_1", "brick_works_spritelayout_1"),
-        (0, 3, "brick_works_tile_1", "brick_works_spritelayout_clay_staithe"),
-        (1, 0, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (1, 1, "brick_works_tile_1", "brick_works_spritelayout_3"),
-        (1, 2, "brick_works_tile_1", "brick_works_spritelayout_2"),
-        (1, 3, "brick_works_tile_1", "brick_works_spritelayout_sand_staithe"),
+        (0, 0, "brick_works_spritelayout_4"),
+        (0, 1, "brick_works_spritelayout_4"),
+        (0, 2, "brick_works_spritelayout_1"),
+        (0, 3, "brick_works_spritelayout_clay_staithe"),
+        (1, 0, "brick_works_spritelayout_3"),
+        (1, 1, "brick_works_spritelayout_3"),
+        (1, 2, "brick_works_spritelayout_2"),
+        (1, 3, "brick_works_spritelayout_sand_staithe"),
     ],
 )

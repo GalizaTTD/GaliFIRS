@@ -14,6 +14,7 @@ industry = IndustryTertiary(
     name="string(STR_IND_WASTE_FURNACE)",
     nearby_station_name="string(STR_STATION_FURNACE)",
     fund_cost_multiplier="140",
+    pollution_and_squalor_factor=1,
 )
 
 industry.enable_in_economy(
