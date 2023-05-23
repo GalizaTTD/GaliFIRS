@@ -22,6 +22,9 @@ industry = IndustryTownProducerPopulationDependent(
 
 industry.enable_in_economy(
     "GALIZA",
+    prod_cargo_types_with_multipliers=[
+        ("WSTE", 16),
+    ]
 )
 
 industry.add_tile(
