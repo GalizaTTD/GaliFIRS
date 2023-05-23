@@ -13,7 +13,6 @@ industry = IndustrySecondary(
     # wharf was added to avoid pathological case in Arctic Basic where checking for only port would often fail to yield a location (for reasons I didn't fully understand eh)
     # ?? might have been due to industry ID ordering issue, but really not sure about that
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["port", "wharf"], 96],
         same_type_distance=128,
     ),
     name="string(STR_IND_CHEMICAL_PLANT)",

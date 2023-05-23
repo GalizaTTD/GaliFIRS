@@ -11,7 +11,6 @@ industry = IndustrySecondary(
     prob_map_gen="5",
     map_colour="169",
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["dairy_farm"], 72],
         same_type_distance=72,
     ),
     special_flags=["IND_FLAG_MILITARY_HELICOPTER_CAN_EXPLODE"],

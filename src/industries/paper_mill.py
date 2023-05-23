@@ -12,7 +12,6 @@ industry = IndustrySecondary(
     substitute="14",
     map_colour="164",
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["forest"], 96],
         same_type_distance=96,
     ),
     fund_cost_multiplier="120",

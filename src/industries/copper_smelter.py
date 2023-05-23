@@ -14,7 +14,6 @@ industry = IndustrySecondary(
     # if copper concentrator is added in some economies, using copper mine as keystone will be a problem as the location checks are not economy-specific
     # (and location checks probably shouldn't be economy-specific to avoid complexity)
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["copper_mine"], 96],
         same_type_distance=96,
     ),
     nearby_station_name="string(STR_STATION_SMELTER)",

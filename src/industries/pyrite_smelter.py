@@ -14,7 +14,6 @@ industry = IndustrySecondary(
     map_colour="19",
     # it's rare to force co-location of secondaries, but this one is near pyrite mine by design
     location_checks=dict(
-        near_at_least_one_of_these_keystone_industries=[["pyrite_mine"], 72],
         same_type_distance=100,
     ),
     special_flags=["IND_FLAG_MILITARY_HELICOPTER_CAN_EXPLODE"],
