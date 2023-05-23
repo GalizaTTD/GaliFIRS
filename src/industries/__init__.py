@@ -323,10 +323,10 @@ from industries import recycling_depot
 recycling_depot.industry.register()
 
 
-"""
+
 from industries import recycling_plant
 recycling_plant.industry.register()
-"""
+
 
 from industries import rubber_plantation
 
@@ -412,3 +412,6 @@ water_plant.industry.register()
 
 from industries import electrolysis_plant
 electrolysis_plant.industry.register()
+
+from industries import waste_furnace
+waste_furnace.industry.register()

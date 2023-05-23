@@ -6,7 +6,7 @@ industry_numeric_ids = dict(
     cryo_plant=3,
     iron_ore_mine=4,
     peatlands=5,
-    ####UNUSED?####smithy_forge = 6,
+    waste_furnace = 6,
     blast_furnace=7,
     basic_oxygen_furnace=8,
     metal_workshop=9,
@@ -23,7 +23,7 @@ industry_numeric_ids = dict(
     dredging_site=20,
     ####UNUSED?####iron_works = 21,
     glass_works=22,
-    ####UNUSED?####recycling_plant = 23,
+    recycling_plant = 23,
     recycling_depot = 24,
     scrap_yard=25,
     arable_farm=26,
@@ -125,6 +125,8 @@ industry_numeric_ids = dict(
 # Definition of industry tile numeric IDs
 # tiles 0-xxx currently vacant
 tile_numeric_ids = dict(
+    waste_furnace_tile_1=82,
+    waste_furnace_tile_2=83,
     electric_arc_furnace_tile_2=84,
     plaza_tile_1=85,
     integrated_steel_mill_tile_1=86,

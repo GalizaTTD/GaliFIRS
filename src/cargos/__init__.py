@@ -104,6 +104,7 @@ from cargos import yarn
 from cargos import zinc
 from cargos import water
 from cargos import hydrogen
+from cargos import waste
 
 acid.cargo.register()
 alcohol.cargo.register()
@@ -209,3 +210,4 @@ wool.cargo.register()
 zinc.cargo.register()
 water.cargo.register()
 hydrogen.cargo.register()
+waste.cargo.register()

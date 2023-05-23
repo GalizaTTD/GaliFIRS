@@ -144,6 +144,7 @@ STR_CARGO_NAME_VEHICLES                                                         
 STR_CARGO_NAME_WOOL                                                             :Fibras animais
 STR_CARGO_NAME_YARN                                                             :Fío
 STR_CARGO_NAME_ZINC                                                             :Cinc
+STR_CARGO_NAME_WASTE                                                            :Lixo
 
 STR_CARGO_UNIT_ACID                                                             :{VOLUME} de ácido
 STR_CARGO_UNIT_ALCOHOL                                                          :{VOLUME} de alcohol
@@ -245,6 +246,7 @@ STR_CARGO_UNIT_VEHICLES                                                         
 STR_CARGO_UNIT_WOOL                                                             :{SIGNED_WORD} paca{P 0 "" s} de fibras animais
 STR_CARGO_UNIT_YARN                                                             :{SIGNED_WORD} paca{P 0 "" s} de fíos
 STR_CARGO_UNIT_ZINC                                                             :{WEIGHT} de cinc
+STR_CARGO_UNIT_WASTE                                                            :{WEIGHT} de lixo
 
 # it seems that using 2 chars for these is a convention not a limit, I tested 4 chars and OpenTTD renders it fine - May 2020
 STR_CID_ACID                                                                    :{TINYFONT}AC
@@ -346,6 +348,7 @@ STR_CID_VEHICLES                                                                
 STR_CID_WOOL                                                                    :{TINYFONT}FA
 STR_CID_YARN                                                                    :{TINYFONT}FIO
 STR_CID_ZINC                                                                    :{TINYFONT}ZN
+STR_CID_WASTE                                                                   :{TINYFONT}LX
 
 
 STR_ERR_CLIMATE_TOYLAND                                                         :{ORANGE}FIRS non está deseñado para ser usado no clima Terra de xoguetes
@@ -468,6 +471,7 @@ STR_IND_VINEYARD                                                                
 STR_IND_VEHICLE_DISTRIBUTOR                                                     :Concesionario
 STR_IND_WHARF                                                                   :Peirao
 STR_IND_WIRE_AND_SECTION_MILL                                                   :Fábrica de arames e seccións
+STR_IND_WASTE_FURNACE                                                           :Incineradora de refugallos
 
 STR_FUND_ARABLE_FARM                                                            :{}{BLACK}Localización: {YELLOW}Non pode fundarse na neve ou en desertos.
 STR_FUND_COFFEE_ESTATE                                                          :{}{BLACK}Localización: {YELLOW}Non pode fundarse na neve ou en desertos.

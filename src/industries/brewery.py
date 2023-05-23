@@ -26,6 +26,7 @@ industry.enable_in_economy(
     accept_cargos_with_input_ratios=[
 		("GRAI", 4),
 		("FRUT", 4),
+		("WATR", 2),
     ],
 )
 

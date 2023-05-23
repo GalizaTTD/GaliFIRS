@@ -3,11 +3,10 @@ from industry import IndustrySecondary, TileLocationChecks
 industry = IndustrySecondary(
     id="recycling_plant",
     accept_cargos_with_input_ratios=[
-        ("RCYC", 6),
+        ("WSTE", 6),
     ],
     prod_cargo_types_with_output_ratios=[
-        ("SCMT", 4),
-        ("MNSP", 4),
+        ("RCYC", 4),
     ],
     prob_in_game="7",
     prob_map_gen="7",
@@ -19,6 +18,9 @@ industry = IndustrySecondary(
     provides_snow=True,
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+)
 
 industry.add_tile(
     id="recycling_plant_tile_1",
@@ -66,6 +68,7 @@ sprite_smoke_2 = industry.add_smoke_sprite(
 
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_1",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_1],
@@ -73,6 +76,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_2",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_2],
@@ -81,6 +85,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_3",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_3],
@@ -88,6 +93,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_4",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_4],
@@ -95,6 +101,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_5",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_5],
@@ -102,6 +109,7 @@ industry.add_spritelayout(
 )
 industry.add_spritelayout(
     id="recycling_plant_spritelayout_6",
+    tile="recycling_plant_tile_1",
     ground_sprite=spriteset_ground,
     ground_overlay=spriteset_ground_overlay,
     building_sprites=[spriteset_6],
@@ -111,35 +119,35 @@ industry.add_spritelayout(
 industry.add_industry_layout(
     id="recycling_plant_industry_layout_1",
     layout=[
-        (0, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_2"),
-        (0, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_3"),
-        (1, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_1"),
-        (1, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_4"),
-        (2, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_5"),
-        (2, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_6"),
+        (0, 0, "recycling_plant_spritelayout_2"),
+        (0, 1, "recycling_plant_spritelayout_3"),
+        (1, 0, "recycling_plant_spritelayout_1"),
+        (1, 1, "recycling_plant_spritelayout_4"),
+        (2, 0, "recycling_plant_spritelayout_5"),
+        (2, 1, "recycling_plant_spritelayout_6"),
     ],
 )
 
 industry.add_industry_layout(
     id="recycling_plant_industry_layout_2",
     layout=[
-        (0, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_2"),
-        (0, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_3"),
-        (0, 2, "recycling_plant_tile_1", "recycling_plant_spritelayout_5"),
-        (1, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_1"),
-        (1, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_4"),
-        (1, 2, "recycling_plant_tile_1", "recycling_plant_spritelayout_6"),
+        (0, 0, "recycling_plant_spritelayout_2"),
+        (0, 1, "recycling_plant_spritelayout_3"),
+        (0, 2, "recycling_plant_spritelayout_5"),
+        (1, 0, "recycling_plant_spritelayout_1"),
+        (1, 1, "recycling_plant_spritelayout_4"),
+        (1, 2, "recycling_plant_spritelayout_6"),
     ],
 )
 
 industry.add_industry_layout(
     id="recycling_plant_industry_layout_3",
     layout=[
-        (0, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_5"),
-        (0, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_3"),
-        (0, 2, "recycling_plant_tile_1", "recycling_plant_spritelayout_2"),
-        (1, 0, "recycling_plant_tile_1", "recycling_plant_spritelayout_6"),
-        (1, 1, "recycling_plant_tile_1", "recycling_plant_spritelayout_4"),
-        (1, 2, "recycling_plant_tile_1", "recycling_plant_spritelayout_1"),
+        (0, 0, "recycling_plant_spritelayout_5"),
+        (0, 1, "recycling_plant_spritelayout_3"),
+        (0, 2, "recycling_plant_spritelayout_2"),
+        (1, 0, "recycling_plant_spritelayout_6"),
+        (1, 1, "recycling_plant_spritelayout_4"),
+        (1, 2, "recycling_plant_spritelayout_1"),
     ],
 )

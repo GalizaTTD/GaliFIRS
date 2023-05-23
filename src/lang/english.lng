@@ -147,6 +147,7 @@ STR_CARGO_NAME_VEHICLES                                                         
 STR_CARGO_NAME_WOOL                                                             :Wool
 STR_CARGO_NAME_YARN                                                             :Yarn
 STR_CARGO_NAME_ZINC                                                             :Zinc
+STR_CARGO_NAME_WASTE                                                            :Waste
 
 STR_CARGO_UNIT_ACID                                                             :{VOLUME} of acid
 STR_CARGO_UNIT_ALCOHOL                                                          :{VOLUME} of alcohol
@@ -248,6 +249,7 @@ STR_CARGO_UNIT_VEHICLES                                                         
 STR_CARGO_UNIT_WOOL                                                             :{SIGNED_WORD} bale{P 0 "" s} of wool
 STR_CARGO_UNIT_YARN                                                             :{SIGNED_WORD} bale{P 0 "" s} of yarn
 STR_CARGO_UNIT_ZINC                                                             :{WEIGHT} of zinc
+STR_CARGO_UNIT_WASTE                                                            :{WEIGHT} of waste
 
 # it seems that using 2 chars for these is a convention not a limit, I tested 4 chars and OpenTTD renders it fine - May 2020
 STR_CID_ACID                                                                    :{TINYFONT}AC
@@ -349,6 +351,7 @@ STR_CID_VEHICLES                                                                
 STR_CID_WOOL                                                                    :{TINYFONT}WL
 STR_CID_YARN                                                                    :{TINYFONT}YN
 STR_CID_ZINC                                                                    :{TINYFONT}ZN
+STR_CID_WASTE                                                                   :{TINYFONT}WS
 
 
 STR_ERR_CLIMATE_TOYLAND                                                         :{ORANGE}FIRS is not designed to be used with Toyland climate
@@ -473,6 +476,7 @@ STR_IND_VINEYARD                                                                
 STR_IND_VEHICLE_DISTRIBUTOR                                                     :Vehicle Distributor
 STR_IND_WHARF                                                                   :Wharf
 STR_IND_WIRE_AND_SECTION_MILL                                                   :Wire and Section Mill
+STR_IND_WASTE_FURNACE                                                           :Waste burning facility
 
 STR_FUND_ARABLE_FARM                                                            :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.
 STR_FUND_COFFEE_ESTATE                                                          :{}{BLACK}Location: {YELLOW}Cannot be funded on snow or in deserts.

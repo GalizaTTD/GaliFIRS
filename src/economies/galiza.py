@@ -51,6 +51,7 @@ economy = Economy(
 		"clay", #40
 		"water",
 		"hydrogen",
+		"waste",
     ],
     # as of April 2021 this cargoflow graph is really as optimised as can be
     # the main driver is preventing ugly appearance of the edges that converge on food, most of the layout is arranged around preventing that
