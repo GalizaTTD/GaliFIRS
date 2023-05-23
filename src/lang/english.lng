@@ -108,7 +108,7 @@ STR_CARGO_NAME_HYDROGEN                                                         
 STR_CARGO_NAME_PACKAGING                                                        :Packaging
 STR_CARGO_NAME_PAINTS_AND_COATINGS                                              :Paints & Coatings
 STR_CARGO_NAME_PEAT                                                             :Peat
-STR_CARGO_NAME_PETROL                                                           :Petroleum Fuels
+STR_CARGO_NAME_PETROL                                                           :Fuels
 STR_CARGO_NAME_PHOSPHATE                                                        :Phosphate
 STR_CARGO_NAME_PHOSPHORIC_ACID                                                  :Phosphoric Acid
 STR_CARGO_NAME_PIG_IRON                                                         :Pig Iron
@@ -210,7 +210,7 @@ STR_CARGO_UNIT_HYDROGEN                                                         
 STR_CARGO_UNIT_PACKAGING                                                        :{WEIGHT} of packaging
 STR_CARGO_UNIT_PAINTS_AND_COATINGS                                              :{VOLUME} of paints & coatings
 STR_CARGO_UNIT_PEAT                                                             :{WEIGHT} of peat
-STR_CARGO_UNIT_PETROL                                                           :{VOLUME} of petroleum fuels
+STR_CARGO_UNIT_PETROL                                                           :{VOLUME} of fuels
 STR_CARGO_UNIT_PHOSPHATE                                                        :{WEIGHT} of phosphate
 STR_CARGO_UNIT_PHOSPHORIC_ACID                                                  :{VOLUME} of phosphoric acid
 STR_CARGO_UNIT_PIG_IRON                                                         :{WEIGHT} of pig iron

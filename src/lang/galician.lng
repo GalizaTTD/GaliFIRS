@@ -105,7 +105,7 @@ STR_CARGO_NAME_HYDROGEN                                                         
 STR_CARGO_NAME_PACKAGING                                                        :Paquetería
 STR_CARGO_NAME_PAINTS_AND_COATINGS                                              :Pinturas e revestimentos
 STR_CARGO_NAME_PEAT                                                             :Biomasa
-STR_CARGO_NAME_PETROL                                                           :Combustibles do petróleo
+STR_CARGO_NAME_PETROL                                                           :Combustíbel
 STR_CARGO_NAME_PHOSPHATE                                                        :Fosfato
 STR_CARGO_NAME_PHOSPHORIC_ACID                                                  :Ácido fosfórico
 STR_CARGO_NAME_PIG_IRON                                                         :Ferro-gusa
@@ -207,7 +207,7 @@ STR_CARGO_UNIT_HYDROGEN                                                         
 STR_CARGO_UNIT_PACKAGING                                                        :{WEIGHT} de paquetería
 STR_CARGO_UNIT_PAINTS_AND_COATINGS                                              :{VOLUME} de pinturas e revistimentos
 STR_CARGO_UNIT_PEAT                                                             :{WEIGHT} de biomasa
-STR_CARGO_UNIT_PETROL                                                           :{VOLUME} de combustíbel do petróleo
+STR_CARGO_UNIT_PETROL                                                           :{VOLUME} de combustíbel
 STR_CARGO_UNIT_PHOSPHATE                                                        :{WEIGHT} de fosfato
 STR_CARGO_UNIT_PHOSPHORIC_ACID                                                  :{VOLUME} de ácido fosfórico
 STR_CARGO_UNIT_PIG_IRON                                                         :{WEIGHT} de ferro-gusa
