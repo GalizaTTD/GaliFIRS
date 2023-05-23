@@ -20,7 +20,9 @@ industry = IndustryPrimaryNoSupplies(
 industry.enable_in_economy(
     "GALIZA",
     locate_in_specific_biomes=[
-        "less_south_east",
+        "galiza",
+        "asturias",
+        "portugal",
     ],
 )
 

@@ -90,3 +90,34 @@ economy = Economy(
         ],
     },
 )
+
+# some deliberate overlapping of biomes for mixing at boundaries
+economy.add_biome(
+    "galiza",
+    min_x_percent = 0,
+    max_x_percent = 55,
+    min_y_percent = 0,
+    max_y_percent = 75,
+)
+economy.add_biome(
+    "asturias",
+    min_x_percent = 55,
+    max_x_percent = 100,
+    min_y_percent = 0,
+    max_y_percent = 40,
+)
+economy.add_biome(
+    "castela",
+    min_x_percent = 60,
+    max_x_percent = 100,
+    min_y_percent = 40,
+    max_y_percent = 100,
+)
+economy.add_biome(
+    "portugal",
+    min_x_percent = 0,
+    max_x_percent = 60,
+    min_y_percent = 75,
+    max_y_percent = 100,
+)
+
