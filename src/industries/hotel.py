@@ -8,7 +8,7 @@ industry = IndustryTertiary(
         "PASS",
     ],
     prod_cargo_types_with_multipliers=[
-        ("PASS", 17),
+        ("PASS", 17),("WSTE", 4),
     ],
     prob_in_game="15",
     prob_map_gen="10",
