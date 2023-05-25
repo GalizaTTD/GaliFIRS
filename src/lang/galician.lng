@@ -28,10 +28,15 @@ STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :Tropical básica
 STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY                                      :Nun país cálido
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :Cidade Siderúrxica
-STR_PARAM_VALUE_ECONOMIES_GALIZA                                                :Galiza
+STR_PARAM_VALUE_ECONOMIES_GALIZA                                                :GalizaTTD
 
+STR_PARAM_NAME_OBJECTS                                                          :FIRS obxectos decorativos
+STR_PARAM_DESC_OBJECTS                                                          :FIRS inclúe unha serie de obxectos decorativos, que os xogadores poden utilizar para que as industrias parezan máis grandes. Non teñen efecto na xogabilidade. Podense desactivar se se quere.
+
+STR_CARGO_SUBTYPE_DISPLAY_CARGO_SUPPLIED_FLAG                                   : {BLACK}(abastecido)
 STR_EXTRA_TEXT_SECONDARY_NON_COMBINATORY                                        :{BLACK}Produce ao máximo se se fornece{WHITE} calquera {BLACK} carga requirida.
 STR_EXTRA_TEXT_SECONDARY_COMBINATORY                                            :{BLACK}Para producir ao máximo, subministra {WHITE}todas {BLACK}as mercadorías requeridas polo menos unha vez cada tres meses.
+STR_EXTRA_TEXT_TOWN_PRODUCER                                                    :{BLACK}A produción é proporcional a poboación da vila. Polo menos {WHITE}{SIGNED_WORD} unidades{BLACK} e non máis de {WHITE}{SIGNED_WORD} unidades{BLACK} de carga produciranse cada mes.
 STR_PRIMARY_PRODUCTION_1X                                                       :{BLACK}Produción actual: {YELLOW}normal {}{}{BLACK}Para produción {WHITE}mellorada {BLACK} entrega {SIGNED_WORD} caixas de abastecemento nun trimestre.{}Para produción {WHITE}ao límite{BLACK} entrega {SIGNED_WORD} caixas.
 STR_PRIMARY_PRODUCTION_2X                                                       :{BLACK}Produción actual: {YELLOW}mellorada {}{}{BLACK}Para manter este nivel, entrega {SIGNED_WORD} caixas de abastecemento nun trimestre.{}Para produción {WHITE}ao límite {BLACK} entrega {SIGNED_WORD} caixas.
 STR_PRIMARY_PRODUCTION_4X                                                       :{BLACK}Produción actual: {YELLOW}ao límite {}{}{BLACK}Para manter este nivel, entrega {SKIP}{SIGNED_WORD} caixas de mercadorías nun trimestre.
