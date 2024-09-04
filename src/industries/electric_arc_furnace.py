@@ -27,6 +27,19 @@ industry.enable_in_economy(
     "STEELTOWN",
 )
 
+industry.enable_in_economy(
+    "GALIZA",
+    intro_year=2020,
+    accept_cargos_with_input_ratios=[
+        ("IORE", 3),
+        ("H2__", 2),
+        ("SCMT", 3),
+    ],
+    prod_cargo_types_with_output_ratios=[
+        ("STEL", 12),
+    ],
+)
+
 industry.add_tile(
     id="electric_arc_furnace_tile_1",
     animation_length=47,
