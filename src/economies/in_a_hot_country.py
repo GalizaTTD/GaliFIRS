@@ -37,6 +37,7 @@ economy = Economy(
         "rubber",
         "sand",
         "stone",
+        "waste",
     ],
     cargoflow_graph_tuning={
         "group_edges_subgraphs": [],

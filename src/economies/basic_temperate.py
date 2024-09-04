@@ -26,6 +26,7 @@ economy = Economy(
         "sand",
         "scrap_metal",
         "steel",
+        "waste",
     ],
     # as of March 2021 this cargoflow tuning is a temporary patch up, might need more work
     cargoflow_graph_tuning={
@@ -42,15 +43,15 @@ economy = Economy(
 # some deliberate overlapping of biomes for mixing at boundaries
 economy.add_biome(
     "more_south_west",
-    min_x_percent = 35,
-    max_x_percent = 100,
-    min_y_percent = 0,
-    max_y_percent = 100,
+    min_x_percent=35,
+    max_x_percent=100,
+    min_y_percent=0,
+    max_y_percent=100,
 )
 economy.add_biome(
     "less_south_west",
-    min_x_percent = 0,
-    max_x_percent = 65,
-    min_y_percent = 0,
-    max_y_percent = 100,
+    min_x_percent=0,
+    max_x_percent=65,
+    min_y_percent=0,
+    max_y_percent=100,
 )

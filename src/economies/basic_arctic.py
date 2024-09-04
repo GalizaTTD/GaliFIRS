@@ -27,6 +27,7 @@ economy = Economy(
         "pyrite_ore",
         "sulphur",
         "zinc",
+        "waste",
     ],
     # as of March 2021 this cargoflow tuning is a temporary patch up, might need more work
     cargoflow_graph_tuning={

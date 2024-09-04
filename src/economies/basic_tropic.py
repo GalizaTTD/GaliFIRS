@@ -27,6 +27,7 @@ economy = Economy(
         "nitrates",
         "oil",
         "wool",
+        "waste",
     ],
     # as of April 2021 this cargoflow graph is really as optimised as can be
     # the main driver is preventing ugly appearance of the edges that converge on food, most of the layout is arranged around preventing that
@@ -47,7 +48,8 @@ economy = Economy(
             ),
         ],
         "clusters": [
-            {"nodes": ["chemicals", "copper_ore"], "rank": "", "color": "white"},
+            {"nodes": ["chemicals", "copper_ore"],
+                "rank": "", "color": "white"},
             {"nodes": ["nitrates", "oil"], "rank": "same", "color": "white"},
             {"nodes": ["fruits", "beans"], "rank": "same", "color": "white"},
             {
@@ -62,15 +64,15 @@ economy = Economy(
 # some deliberate overlapping of biomes for mixing at boundaries
 economy.add_biome(
     "more_west",
-    min_x_percent = 0,
-    max_x_percent = 100,
-    min_y_percent = 0,
-    max_y_percent = 60,
+    min_x_percent=0,
+    max_x_percent=100,
+    min_y_percent=0,
+    max_y_percent=60,
 )
 economy.add_biome(
     "less_west",
-    min_x_percent = 0,
-    max_x_percent = 100,
-    min_y_percent = 40,
-    max_y_percent = 100,
+    min_x_percent=0,
+    max_x_percent=100,
+    min_y_percent=40,
+    max_y_percent=100,
 )
